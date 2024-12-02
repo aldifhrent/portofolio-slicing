@@ -3,11 +3,10 @@
 
 export default function AboutMe() {
   return (
-    <section className="mt-[69.52px] px-12 2xl:px-[250px] pt-[61px]">
-      <div className="flex flex-col  xl:flex-row items-center justify-center mx-auto">
-        <div>
-          <img src="./profile-image.svg" />
-        </div>
+    <section className="mt-[69.52px] px-12 2xl:px-[250px] pt-[61px] mx-auto flex">
+      <div className="flex flex-col  xl:flex-row  justify-center mx-auto items-center xl:items-start">
+        <img src="./profile-image.svg" width={500} />
+
         <div className="flex flex-col mt-[55px] mx-auto ml-0 xl:ml-[148px] items-center xl:items-start ">
           <h1 className="text-[65px] font-bold text-center lg:text-left">
             About Me

@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Header() {
   return (
-    <header className="px-12 2xl:px-[250px] p-12 xl:pt-[61px] sticky top-0  backdrop-blur-md backdrop-opacity-85 ">
-      <nav className="flex justify-between items-center mx-auto ">
+    <header className="px-12 xl:px-[250px] p-12  ">
+      <nav className="flex justify-between items-center sticky top-0  backdrop-blur-md backdrop-opacity-85 mx-auto">
         <div className="flex gap-5 items-center">
           <img src="./logo.svg" width={67} height={67} alt="Logo " />
         </div>

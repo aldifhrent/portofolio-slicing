@@ -19,6 +19,7 @@ export default function Projects() {
               title={project.title}
               type={project.type}
               key={project.id}
+              href={project.href}
             />
           ))}
         </div>

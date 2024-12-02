@@ -19,25 +19,25 @@ export const skillData = [
 
 export const serviceData = [
   {
-    image: "./service-1.svg",
+    image: "./services/service-1.svg",
     title: "UI/UX",
     description:
       "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
   },
   {
-    image: "./service-1.svg",
+    image: "./services/service-2.svg",
     title: "Web Design ",
     description:
       "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
   },
   {
-    image: "./service-1.svg",
+    image: "./services/service-3.svg",
     title: "App Design",
     description:
       "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
   },
   {
-    image: "./service-1.svg",
+    image: "./services/service-4.svg",
     title: "Graphic Design ",
     description:
       "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
@@ -47,20 +47,16 @@ export const serviceData = [
 export const projects = [
   {
     id: 1,
-    image: "./projects/project-1.png",
-    title: "AirCalling Landing Page Design ",
+    image: "./projects/gojek.png",
+    title: "Gojek Landing Page ",
     type: "Web Design",
+    href: "https://gojek-slicing.vercel.app",
   },
   {
     id: 2,
-    image: "./projects/project-1.png",
-    title: "Business Landing Page Design  ",
+    image: "./projects/todo.png",
+    title: "Todo List  ",
     type: "Web Design",
-  },
-  {
-    id: 3,
-    image: "./projects/project-1.png",
-    title: "Ecom Web Page Design ",
-    type: "Web Design",
+    href: "https://todolist-lyart-eight.vercel.app",
   },
 ];
